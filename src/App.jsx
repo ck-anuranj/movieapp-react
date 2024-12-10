@@ -1,7 +1,7 @@
 /* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg' */
-import './App.css'
+/* import './App.css' */
 import NavBar from './components/NavBar'
 import Banner from './components/Banner'
 import Movies from './components/Movies'
@@ -22,18 +22,16 @@ function App() {
           <>
             <Banner></Banner>
             <Movies></Movies>
-            {/* <Pagination></Pagination> */}
           </>
-
         }
         ></Route>
-        <Route path='/movieapp-react' element={
+
+
+        <Route path='/movieapp-reactjs' element={
           <>
             <Banner></Banner>
             <Movies></Movies>
-            {/* <Pagination></Pagination> */}
           </>
-
         }
         ></Route>
         
