@@ -26,14 +26,14 @@ function App() {
         }
         ></Route>
 
-
-        <Route path='/movieapp-reactjs' element={
+<Route path='/movieapp-react' element={
           <>
             <Banner></Banner>
             <Movies></Movies>
           </>
         }
         ></Route>
+
         
         <Route path='/fav' element={
             <Favourites></Favourites>
